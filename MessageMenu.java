@@ -12,7 +12,6 @@ public class MessageMenu
         int userChoice;
         Scanner input = new Scanner(System.in);
         Scanner keyboard = new Scanner(System.in);
-
         System.out.println("Please choose from the following options: ");
         System.out.println("------------------------------------------");
         System.out.println("1. View Messages");
@@ -28,6 +27,8 @@ public class MessageMenu
             case 1:
                 viewMessages();
             case 2:
+            // TEST 
+
 
         }
     }
