@@ -19,8 +19,7 @@ public class MessageMenu
         System.out.println("2. New Message");
         System.out.println("3. Archive Message");
         System.out.println("4. Delete Message");
-        System.out.println("5. Go to Buddy List");
-        System.out.println("6. Return to Profile");
+        System.out.println("5. Return to Profile");
 
         userChoice = input.nextInt();
         
@@ -28,7 +27,7 @@ public class MessageMenu
             case 1:
                 viewMessages();
             case 2:
-
+            
         }
     }
 
